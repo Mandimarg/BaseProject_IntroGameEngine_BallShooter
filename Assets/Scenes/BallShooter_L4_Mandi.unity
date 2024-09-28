@@ -371,7 +371,7 @@ GameObject:
   - component: {fileID: 151681588}
   - component: {fileID: 151681587}
   m_Layer: 0
-  m_Name: Arch (2)
+  m_Name: Cap 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1327,7 +1327,7 @@ GameObject:
   - component: {fileID: 311874387}
   - component: {fileID: 311874386}
   m_Layer: 0
-  m_Name: Pipe (2)
+  m_Name: Tunnel 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2222,7 +2222,7 @@ GameObject:
   - component: {fileID: 439926656}
   - component: {fileID: 439926655}
   m_Layer: 0
-  m_Name: Pipe
+  m_Name: Tunnel 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3478,7 +3478,7 @@ GameObject:
   - component: {fileID: 935796378}
   - component: {fileID: 935796377}
   m_Layer: 0
-  m_Name: Arch (1)
+  m_Name: Cap 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4316,7 +4316,7 @@ GameObject:
   - component: {fileID: 963619265}
   - component: {fileID: 963619264}
   m_Layer: 0
-  m_Name: Arch
+  m_Name: Cap 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5319,7 +5319,7 @@ GameObject:
   - component: {fileID: 1149739520}
   - component: {fileID: 1149739519}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5990,7 +5990,7 @@ GameObject:
   - component: {fileID: 1927834037}
   - component: {fileID: 1927834036}
   m_Layer: 0
-  m_Name: Pipe (1)
+  m_Name: Tunnel 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7290,7 +7290,7 @@ PrefabInstance:
     - target: {fileID: 622763330879593280, guid: 80dc5fed223346e4fa53a8715357b330,
         type: 3}
       propertyPath: ShotsToComplete
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4303680812698288562, guid: 80dc5fed223346e4fa53a8715357b330,
         type: 3}

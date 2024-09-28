@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 46648090}
   - component: {fileID: 46648089}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Cheesefloor
   m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29744,7 +29744,7 @@ GameObject:
   - component: {fileID: 1023296296}
   - component: {fileID: 1023296295}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30195,7 +30195,7 @@ GameObject:
   - component: {fileID: 1486225536}
   - component: {fileID: 1486225535}
   m_Layer: 0
-  m_Name: Cube (1)
+  m_Name: Zfloor
   m_TagString: Goal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70674,7 +70674,7 @@ GameObject:
   - component: {fileID: 1498621682}
   - component: {fileID: 1498621681}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -71272,7 +71272,7 @@ PrefabInstance:
     - target: {fileID: 622763330879593280, guid: 80dc5fed223346e4fa53a8715357b330,
         type: 3}
       propertyPath: ShotsToComplete
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4303680812698288562, guid: 80dc5fed223346e4fa53a8715357b330,
         type: 3}
