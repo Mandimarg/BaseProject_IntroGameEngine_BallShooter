@@ -1209,7 +1209,7 @@ GameObject:
   - component: {fileID: 194254347}
   - component: {fileID: 194254346}
   m_Layer: 0
-  m_Name: Torus
+  m_Name: Black hole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12885,11 +12885,11 @@ Transform:
   m_GameObject: {fileID: 194254345}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.39363444, w: 0.9192671}
-  m_LocalPosition: {x: -10.06, y: 14.67, z: -7.2798996}
-  m_LocalScale: {x: 0.77762, y: 0.32353958, z: 0.78815}
+  m_LocalPosition: {x: -10.06, y: 20.17, z: -7.2798996}
+  m_LocalScale: {x: 0.77761996, y: 0.3235396, z: 0.78815}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 204219199}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -46.362}
 --- !u!1 &204219198
 GameObject:
@@ -12927,6 +12927,8 @@ Transform:
   - {fileID: 935796382}
   - {fileID: 151681592}
   - {fileID: 1149739524}
+  - {fileID: 1075132418}
+  - {fileID: 194254351}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &266956134
@@ -40530,11 +40532,11 @@ Transform:
   m_GameObject: {fileID: 1075132412}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.98744553, z: -0.15796, w: 0}
-  m_LocalPosition: {x: 1.72, y: 12.39, z: -15.03}
-  m_LocalScale: {x: 0.55452, y: 0.55452, z: 0.55452}
+  m_LocalPosition: {x: 1.72, y: 17.89, z: -15.03}
+  m_LocalScale: {x: 0.55452, y: 0.55452, z: 0.55451995}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 204219199}
   m_LocalEulerAnglesHint: {x: 18.177, y: 180, z: 0}
 --- !u!1 &1149739518
 GameObject:
@@ -40551,7 +40553,7 @@ GameObject:
   - component: {fileID: 1149739520}
   - component: {fileID: 1149739519}
   m_Layer: 0
-  m_Name: Platform
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53837,5 +53839,3 @@ SceneRoots:
   - {fileID: 79976147}
   - {fileID: 44122492}
   - {fileID: 204219199}
-  - {fileID: 1075132418}
-  - {fileID: 194254351}

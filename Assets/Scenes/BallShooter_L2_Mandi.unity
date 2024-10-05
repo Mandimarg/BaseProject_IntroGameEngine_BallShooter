@@ -139,7 +139,7 @@ GameObject:
   - component: {fileID: 818563}
   - component: {fileID: 818562}
   m_Layer: 0
-  m_Name: Prism (2)
+  m_Name: ' Guide'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,7 +166,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 391046373}
+  m_Mesh: {fileID: 2135815430}
 --- !u!33 &818563
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -433,12 +433,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 818561}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 3.683, y: 3.93, z: -30.82}
   m_LocalScale: {x: 0.27168, y: 0.27168, z: 0.27168}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 537202260}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &44122491
 GameObject:
@@ -29481,7 +29481,7 @@ GameObject:
   - component: {fileID: 129750737}
   - component: {fileID: 129750736}
   m_Layer: 0
-  m_Name: Prism (1)
+  m_Name: Guide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29508,7 +29508,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 1918243521}
+  m_Mesh: {fileID: 391046373}
 --- !u!33 &129750737
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -29775,12 +29775,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 129750735}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 3.683, y: 6.32, z: -30.82}
   m_LocalScale: {x: 0.27168, y: 0.27168, z: 0.27168}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 537202260}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &218701318
 GameObject:
@@ -29797,7 +29797,7 @@ GameObject:
   - component: {fileID: 218701320}
   - component: {fileID: 218701319}
   m_Layer: 0
-  m_Name: Prism
+  m_Name: Path
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30091,12 +30091,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218701318}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 3.683, y: 8.4042, z: -28.728}
   m_LocalScale: {x: 0.27168, y: 0.27168, z: 0.27168}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 537202260}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &266956134
 GameObject:
@@ -30396,7 +30396,7 @@ GameObject:
   - component: {fileID: 401609915}
   - component: {fileID: 401609914}
   m_Layer: 0
-  m_Name: Prism (3)
+  m_Name: Guide
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30423,7 +30423,7 @@ MeshCollider:
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2135815430}
+  m_Mesh: {fileID: 438995131}
 --- !u!33 &401609915
 MeshFilter:
   m_ObjectHideFlags: 10
@@ -30690,12 +30690,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401609913}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
   m_LocalPosition: {x: 3.683, y: 1.66, z: -30.82}
   m_LocalScale: {x: 0.27168, y: 0.27168, z: 0.27168}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 537202260}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!43 &438995131
 Mesh:
@@ -31059,6 +31059,10 @@ Transform:
   - {fileID: 1023296299}
   - {fileID: 46648088}
   - {fileID: 2125825051}
+  - {fileID: 218701324}
+  - {fileID: 129750741}
+  - {fileID: 818567}
+  - {fileID: 401609919}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1023296294
@@ -35508,7 +35512,3 @@ SceneRoots:
   - {fileID: 79976147}
   - {fileID: 44122492}
   - {fileID: 537202260}
-  - {fileID: 218701324}
-  - {fileID: 129750741}
-  - {fileID: 818567}
-  - {fileID: 401609919}
